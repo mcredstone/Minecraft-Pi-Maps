@@ -1,5 +1,5 @@
-This is my first website
-========================
+These are my first mods for Minecraft Pi
+========================================
 
-It is called Minecraft Pi Maps and you can buy and download them onto your
-raspberry pi, run them, and get cool things in Minecraft Pi Edition!
+Please feel free to downolad them to your Pi, and run them
+in Minecraft Pi! Thank you.
