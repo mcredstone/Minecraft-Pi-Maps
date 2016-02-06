@@ -16,14 +16,14 @@ triggerBlock = block.WOOL
 while True:
     size = random.randint(1,3)
     
-    #Grabbing the player's current position and assigning it to the variable
-    #'pos'. It will also allow the program to build the house around the player.
-    pos = mc.player.getPos()
-    x = pos.x
-    y = pos.y
-    z = pos.z
-    
     if mc.getBlock(x, y - 1, z) == triggerBlock:
+            
+        #Grabbing the player's current position and assigning it to the variable
+        #'pos'. It will also allow the program to build the house around the player.
+        pos = mc.player.getPos()
+        x = pos.x
+        y = pos.y
+        z = pos.z
         #Building house size one
         if size == 1:
             mc.setBlocks(x, y - 1, z, x + 2, y - 1, z, houseBlock1)
