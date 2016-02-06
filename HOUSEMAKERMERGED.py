@@ -24,6 +24,10 @@ while True:
         x = pos.x
         y = pos.y
         z = pos.z
+        
+        #Deleteing the trigger block
+        mc.setBlock(x, y - 1, z, 0)
+        
         #Building house size one
         if size == 1:
             mc.setBlocks(x, y - 1, z, x + 2, y - 1, z, houseBlock1)
