@@ -14,6 +14,7 @@ block5 = 4
 gameOver = False
 
 #Game
+mc.postToChat("Welcome to Runner. Place and step on the trigger block that you defined.")
 while True:
 	if mc.getBlock(mc.player.getPos().x, mc.player.getPos().y - 1, mc.player.getPos().z) == triggerBlock:
 		
